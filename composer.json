@@ -1,0 +1,36 @@
+{
+    "name": "zwirek/rate-limit",
+    "description": "Set of classes for limiting concurrent job execution using ReactPHP",
+    "license": "MIT",
+    "keywords": ["limiter", "rate limit", "licky bucket", "queue", "time window", "time box" ,"asynchronous", "ReactPHP"],
+    "autoload": {
+        "psr-4": {
+            "Zwirek\\Limiter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "unit\\": "tests/unit/",
+            "utils\\": "tests/utils/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zbigniew Żwirek",
+            "email": "github.srv@zwirek.net"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "react/event-loop": "^1.4",
+        "react/promise": "^2.2 || ^3.0"
+    },
+    "require-dev": {
+        "phpspec/prophecy-phpunit": "^2.1",
+        "phpunit/phpunit": "^9.6.13"
+    },
+    "config": {
+        "sort-packages": true,
+        "bin-dir": "bin/"
+    }
+}
