@@ -1,5 +1,5 @@
 {
-    "name": "zwirek/rate-limit",
+    "name": "zwirek/reactphp-limiter",
     "description": "Set of classes for limiting concurrent job execution using ReactPHP",
     "license": "MIT",
     "keywords": ["limiter", "rate limit", "licky bucket", "queue", "time window", "time box" ,"asynchronous", "ReactPHP"],
